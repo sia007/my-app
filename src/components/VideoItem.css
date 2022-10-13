@@ -1,0 +1,54 @@
+.video-item {
+  display: flex !important;
+  align-items: center !important;
+  cursor: pointer;
+}
+
+.video-item.item img {
+  max-width: 180px;
+}
+.container-photo {
+  width: 300px;
+
+}
+
+.img2 {
+  max-height: 40%;
+  max-width: 100%;
+}
+.showroom-card {
+ 
+  border: 2px solid red;
+}
+
+.selected {
+  border: 2px solid red;
+}
+.selected2 {
+  border: 2px solid black;
+    left: 0;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+.section {
+  display: grid;
+
+  grid-gap: 10px;
+}
+
+.hiding{
+display:hidden !important;
+}
+.showing{
+display:show;
+}
+.section-divs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #fff;
+
+  cursor: pointer;
+}
